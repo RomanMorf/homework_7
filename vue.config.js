@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { ESBuildMinifyPlugin } = require("esbuild-loader");
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "homework_7" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/" : "/",
 
   lintOnSave: false,
 
